@@ -41,7 +41,7 @@ material:
           </body>
         </html>
       "cryptozombies_abi.js": |
-        var cryptozombiesABI = [
+        var cryptoZombiesABI = [
           {
             "constant": false,
             "inputs": [
@@ -870,7 +870,7 @@ O Web3.js precisará de duas coisas para conversar com seu contrato: o **_endere
 
 Depois de terminar de escrever seu smart contract, você irá compilá-lo e implantá-lo no Ethereum. Vamos abordar **a implantação** na **próxima lição**, mas como esse é um processo bem diferente de escrever código, decidimos mudar a ordem e cobrir o Web3.js primeiro.
 
-Depois de implantar o seu contrato, ele recebe um endereço fixo no Ethereum, onde viverá para sempre. Se você se lembra da lição 2, o endereço do contrato CryptoKitties na rede social Ethereum é `YOUR_CONTRACT_ADDRESS`.
+Depois de implantar o seu contrato, ele recebe um endereço fixo no Ethereum, onde viverá para sempre. Se você se lembra da lição 2, o endereço do contrato CryptoKitties na rede social Ethereum é `0x06012c8cf97BEaD5deAe237070F9587f8E7A266d`.
 
 Você precisará copiar esse endereço após a implantação para conversar com seu smart contract.
 
@@ -882,7 +882,7 @@ ABI significa Application Binary Interface (Interface Binária da Aplicação). 
 
 Quando você compilar seu contrato para implantar no Ethereum (que abordaremos na Lição 7), o compilador Solidity lhe dará a ABI, então você precisará copiar e salvar isso mais o endereço do contrato.
 
-Como ainda não abordamos a implantação, para esta lição compilamos a ABI para você e a colocamos em um arquivo chamado `cryptozombies_abi.js`, armazenado em uma variável chamada`cryptozombiesABI`.
+Como ainda não abordamos a implantação, para esta lição compilamos a ABI para você e a colocamos em um arquivo chamado `cryptozombies_abi.js`, armazenado em uma variável chamada`cryptoZombiesABI`.
 
 Se incluirmos `cryptozombies_abi.js` em nosso projeto, poderemos acessar a ABI CryptoZombies usando essa variável.
 
